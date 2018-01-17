@@ -1,0 +1,110 @@
+	#nav {
+
+    background: #fff;
+
+    color: white;
+    
+    width : 100%;
+
+}
+	#nav .left {
+
+    display: flex;
+
+    flex: 1 1 auto;
+
+    justify-content: flex-start;
+
+    overflow: hidden;
+
+}
+	#nav .right {
+
+    display: flex;
+
+    flex: 0 0 auto;
+
+    justify-content: flex-end;
+
+}
+
+#nav .core {
+
+    height: 50px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+.core {
+
+    max-width: 1250px;
+
+    margin: 0 auto;
+
+    width: 100%;
+
+}
+span.text {
+	font-size: 15px;
+	padding: 5px;
+}
+span.home {
+	color: white; 
+	font-size: 25px;
+}
+.core {
+	margin : 0 auto;
+	display : flex;
+}
+.item {
+	display : flex;
+}
+.navbar>li {
+	display: inline-block;
+}
+.navbar button {
+	display : block;
+	color : white;
+	padding: 10px 10px;
+	text-decoration : none;
+}
+.navbar button:hover {
+	background: #5D5D5D;
+}
+@media (max-width: 480px){
+	span.text{
+		display : none;
+	}
+	.navbar button{
+		font-size : 17px
+	}
+	span.home{
+		font-size : 18px;
+		text-align : center;
+	}
+	.table {
+	font-size : 11px;
+	}
+	
+}
+.imgsize {
+	max-width: 100%;
+	height : auto;
+}
+div.container{
+	text-align: center;
+	margin = 10px;
+}
+button.noeff {
+	border : 0;
+	outline : 0;
+	background-color : black;
+	color : white;
+	padding : 10px;
+}
+.home a:link,.home  a:visited {
+		color : white;
+}
