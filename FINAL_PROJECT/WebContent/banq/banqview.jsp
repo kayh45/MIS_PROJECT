@@ -216,6 +216,6 @@ function authToList() {
          </div>   
 		</form>
 	</div>
-	</div>
+	
 </body>
 </html>

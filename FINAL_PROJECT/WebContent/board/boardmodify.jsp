@@ -171,7 +171,7 @@ function authToList() {
 	<h3>오늘의 한마디 수정</h3>
 <form method=post name = "fm" action="<%=contextName%>/board.do?act=EMPU" onsubmit="return modify_click(this);">
 	<div class = "col-lg-6" style = "border : 1px solid #EAEAEA;">
-	<input type = "hidden" class = form-control" name = "boardNo" value = <%= boardNo %>>
+	<input type = "hidden" class = "form-control" name = "boardNo" value = <%= boardNo %>>
 	<input type = "hidden" class = "form-control"  name = "boardWrt" value = <%=request.getSession().getAttribute("userNo").toString() %>>
 	이름: <input type = "text" class = "form-control"  name = "boardWrtNm" value = <%=request.getSession().getAttribute("userName").toString() %> readonly><br>
 	날짜: <input type = "text" class = "form-control"  name = "boardDate" value = <%= today %> readonly><br>

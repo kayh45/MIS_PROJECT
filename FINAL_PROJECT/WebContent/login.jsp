@@ -89,7 +89,7 @@ function f_submit() {
 <body>
 <div class =" container">
 	<div class = "starter-template">
-		<h1>연회예약관리시스템</h1>
+		<h1>연회예약관리시스템::Ver.2</h1>
 		<p class = "lead">
 
 		<form class="form" name="fm" method=post action="<%=contextName%>/login.do?act=LOGIN">

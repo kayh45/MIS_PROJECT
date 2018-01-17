@@ -236,7 +236,7 @@ function list_click(url_param){
               <a href="javascript:update_click('<%=contextName%>/emp.do?act=EMPUR&NO=<%=empNo%>')" class="btn btn-primary">수정</a>
               <a href="javascript:list_click('<%=contextName%>/emp.do?act=EMPL&page=<%=cpage%>&srch_type=<%=srch_type%>&srch_keyword=<%=srch_keyword%>')" class="btn btn-default">목록</a>
             </p>
-         </div>   
+         </div></div></div></div>   
                                                    
 </div>
 </body>
